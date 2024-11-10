@@ -21,6 +21,7 @@ body {
     justify-content: space-around;
     width: 100%;
     display: flex;
+    font-size: 26px;
 }
 
 a {
@@ -362,9 +363,9 @@ p {
 
 }
 
-/*--------RESPONSIVIDAD 768-------------*/
+/*--------RESPONSIVIDAD 850-------------*/
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
 
     .video iframe {
         height: 250px;
@@ -418,7 +419,7 @@ p {
     .menu {
 
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.7rem;
     }
 
     /*Historia del GER*/
@@ -462,9 +463,13 @@ p {
 
 }
 
-/*----- RESPONSIVIDAD 680*/
+/*----- RESPONSIVIDAD 790*/
 
-@media (max-width: 680px) {
+@media (max-width: 790px) {
+
+    .menu {
+        font-size: 1.3rem;
+    }
 
     .fotoTexto, .fotoTexto2, .fototexto3, .fotoTexto4, .fotoTexto5, .videoTexto, .videoTexto2 {
         flex-direction: column;
@@ -495,6 +500,32 @@ p {
     .textoAntiguosComandos {
         text-align: center;
     }
+
+}
+
+/*----- RESPONSIVIDAD 550*/
+
+@media (max-width: 550px) {
+
+    .menu{ 
+        font-size: 1.1rem;
+    }
+
+    .curso1885, .escalador, .LogosGER, .rapelAntiguo, .Edificio, .tren {
+        width: 55%;
+        height: 55%;
+    }
+
+    .brazoEpico {
+        width: 35%;
+        height: 35%;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+        
+
 
 }
 
