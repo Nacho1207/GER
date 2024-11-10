@@ -462,11 +462,9 @@ p {
 
 }
 
+/*----- RESPONSIVIDAD 680*/
 
-
-/*----- RESPONSIVIDAD 580*/
-
-@media (max-width: 580px) {
+@media (max-width: 680px) {
 
     .fotoTexto, .fotoTexto2, .fototexto3, .fotoTexto4, .fotoTexto5, .videoTexto, .videoTexto2 {
         flex-direction: column;
