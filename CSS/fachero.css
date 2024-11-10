@@ -1,8 +1,8 @@
 body {
     background: linear-gradient(45deg, #61502d, #332a1a, #3a3529,  #523b1e);
-    background-size: 400%, 400%;
+    background-size:400%, 400%;
     animation: gradienteAnimacion 8s ease infinite;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 @keyframes gradienteAnimacion {
@@ -12,9 +12,10 @@ body {
     50% {
         background-position: 100%, 50%;
     }
-    100% {0%, 50%;
+    100% {background-position: 0%, 50%;
     }
 }
+
 
 .menu{
     justify-content: space-around;
@@ -47,6 +48,11 @@ h2 {
     color: rgb(218, 203, 162);
 }
 
+.videoGer {
+    height: 500px;
+    width: 700px;
+}
+
 p { 
     color: white;
 }
@@ -55,6 +61,19 @@ p {
     max-width: 1000px;  
     margin: auto;     
     padding: 10px;
+
+    .curso1885 {
+        display: block;
+        margin: auto;
+    }
+
+    .botonIg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
 }
 
 .logoger {
@@ -69,8 +88,8 @@ p {
 /*------Primer texto seguido de una foto*/
 
 .brazoEpico {
-    width: 3500px;
-    height: 570px;
+    height: 500px;
+    width: auto;
     margin-bottom: 40px;
     border-radius: 5%;
 }
@@ -101,7 +120,6 @@ p {
 /*------Link de Instagram////////////////////////*/
 
 .ig {
-    margin-left: 45% ;
     margin-bottom: 2px;
     border-radius: 50%;
     background-color: #000000ab;
@@ -145,8 +163,6 @@ button {
     padding: 10px 20px;
     font-size: 18px;
 }
-
-
 
 
 /*///////////// Estilo de Historia del GER ////////////////////////////////////*/
@@ -194,9 +210,7 @@ button {
 
 .curso1885 {
     margin-top: 25px;
-    margin-left: 21%;
     border-radius: 5%
-
 }
 
 .integrantesCursoGER {
@@ -271,7 +285,7 @@ button {
     width: 650px;
     height: 500px;
     border-radius: 2%;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
 }
 
 
@@ -333,4 +347,160 @@ p {
     animation-range: entry 10% cover 20%;
     animation-fill-mode: both;
 }
+
+/*--------RESPONSIVIDAD 1080-------------*/
+@media (max-width: 1080px) {
+
+    .video iframe {
+        height: 450px;
+        width: 630px;
+    }
+
+    h1 {
+        font-size: 55px;
+    }
+
+}
+
+/*--------RESPONSIVIDAD 768-------------*/
+
+@media (max-width: 768px) {
+
+    .video iframe {
+        height: 250px;
+        width: 330px;
+    }
+
+    .brazoEpico {
+        width: 250px;
+        height: 330px;
+    }
+
+    .Edificio {
+        width: 350px;
+        height: auto;
+    }
+
+    
+    h1 {
+        font-size: 3rem;
+        margin: 0px;
+        padding: 5px;
+    }
+
+    h2 {
+        margin: 0px;
+        padding: 5px;
+    }
+
+    p {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .escudoGer {
+        height: 70px;
+        width: auto;
+        margin: 0px;
+        padding: 5px;
+    }
+
+    select {
+        padding: 10px;
+        font-size: 12px;
+    }
+    
+    button {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    .menu {
+
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    /*Historia del GER*/
+
+    .LogosGER {
+        height: 290px;
+        width: 350px;
+    }
+
+    .rapelAntiguo {
+        height: 450px;
+        width: auto;
+    }
+
+    .curso1885 {
+        width: 350px;
+        height: auto;
+    }
+
+    /*Intervenciones importantes*/
+
+    .videoRescate {
+        width: 360px;
+        height: 300px;
+    }
+
+    .escalador {
+        height: 420px;
+        width: auto;
+    }
+
+    .tren {
+        width: 370px;
+        height: auto;
+    }
+
+    .explosion {
+        width: 360px;
+        height: 300px;
+    }
+
+}
+
+
+
+/*----- RESPONSIVIDAD 580*/
+
+@media (max-width: 580px) {
+
+    .fotoTexto, .fotoTexto2, .fototexto3, .fotoTexto4, .fotoTexto5, .videoTexto, .videoTexto2 {
+        flex-direction: column;
+    }
+
+    .parrafoFoto2, .parrafoFoto3,.parrafoFoto4 ,.textoDelVideo ,.parrafoFoto5, .textoDelVideo2 {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    .parrafoFoto  {
+        margin-right: 0%;
+    }
+
+    .textoDelVideo, .textoDelVideo2{
+        width: 100%;
+    }
+
+    p {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .fotoTexto, .fototexto3, .fotoTexto4 {
+        flex-direction: column-reverse;
+    }
+
+    .textoAntiguosComandos {
+        text-align: center;
+    }
+
+}
+
+
+
+
 
